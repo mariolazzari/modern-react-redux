@@ -1,5 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function StreamShow() {
-  return <div>stream show</div>;
-}
+const StreamShow = () => {
+  return (
+    <div>
+      stream show
+      <Link to="/">back home</Link>
+    </div>
+  );
+};
+
+export default StreamShow;
